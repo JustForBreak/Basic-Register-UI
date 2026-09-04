@@ -29,4 +29,4 @@ Then open http://127.0.0.1:5000 in your browser.
 
 - Passwords are hashed with `bcrypt.gensalt()` and stored as a hash string.
 - The Flask `secret_key` is hard-coded for development — change it before deploying.
-- CSRF protection is not included; consider adding `Flask-WTF` before going to production.
+- CSRF protection is not included; consider adding `Flask-WTF` before going to production
