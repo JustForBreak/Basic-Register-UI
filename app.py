@@ -28,6 +28,9 @@ def init_db():
         conn.commit()
 
 
+init_db()
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
